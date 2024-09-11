@@ -1,5 +1,5 @@
 {
-  "name": "jobber-notifications",
+  "name": "jobber-gateway",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",

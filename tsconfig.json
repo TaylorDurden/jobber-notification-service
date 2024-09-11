@@ -27,5 +27,7 @@
     "paths": {
       "@notifications/*": ["src/*"]
     }
-  }
+  },
+  "include": ["src", "tools"],
+  "exclude": ["node_modules"]
 }
