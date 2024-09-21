@@ -8,7 +8,8 @@ COPY .npmrc ./
 COPY src ./src
 COPY tools ./tools
 RUN ls -a
-RUN npm install && npm install -g nodemon
+RUN npm install -g pnpm
+RUN pnpm install && pnpm install -g nodemon
 
 EXPOSE 4000
 
